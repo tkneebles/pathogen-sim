@@ -30,7 +30,7 @@ def run_stochastic_sir(N, r0, recovery_rate, days):
 
 # --- THE COCKPIT (Streamlit UI) ---
 st.set_page_config(layout="wide", page_title="CDC-Style Pro Model")
-st.title("🛡️ Advanced Transmission Model (CDC Explainer Style)")
+st.title("Advanced Transmission Model (CDC Explainer Style)")
 st.markdown(
     """
     Developed by **[Marco Waisman-Garzon](https://www.linkedin.com/in/marco-waisman-garzon/)** *Stochastic Engine | Epidemiological Data Systems*
