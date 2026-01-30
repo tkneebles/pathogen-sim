@@ -1,5 +1,5 @@
 # Advanced CDC-Standard Transmission Model
-### ### https://pathogen-sim.streamlit.app/
+### https://pathogen-sim.streamlit.app/
 ### Developed by [Marco Waisman-Garzon](https://www.linkedin.com/in/marco-waisman-garzon/)
 
 
