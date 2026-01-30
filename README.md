@@ -1,5 +1,6 @@
 # Advanced CDC-Standard Transmission Model
 ### Developed by [Marco Waisman-Garzon](https://www.linkedin.com/in/marco-waisman-garzon/)
+## https://pathogen-sim.streamlit.app/
 
 An interactive epidemiological dashboard built with a modular Python architecture. This simulator implements a stochastic SVIPR model to project disease dynamics based on vaccination rates, waning immunity, and super-spreader events.
 
