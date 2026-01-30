@@ -29,9 +29,14 @@ def run_stochastic_sir(N, r0, recovery_rate, days):
     return pd.DataFrame({"Day": range(days + 1), "Susceptible": S, "Infected": I, "Recovered": R})
 
 # --- THE COCKPIT (Streamlit UI) ---
-st.set_page_config(page_title="Pathogen Watch", layout="wide")
-st.title("Stochastic Pathogen Simulator")
-st.markdown("Developed by the Iceman of Analytics. *Raw, real-world randomness.*")
+st.set_page_config(layout="wide", page_title="CDC-Style Pro Model")
+st.title("🛡️ Advanced Transmission Model (CDC Explainer Style)")
+st.markdown(
+    """
+    Developed by **[Marco Waisman-Garzon](https://www.linkedin.com/in/marco-waisman-garzon/)** *Stochastic Engine | Epidemiological Data Systems*
+    """, 
+    unsafe_allow_html=True
+)
 
 # Sidebar Controls
 st.sidebar.header("Simulation Parameters")
