@@ -33,7 +33,7 @@ st.set_page_config(page_title="Pathogen Watch", layout="wide")
 st.title("Stochastic Pathogen Simulator")
 st.markdown("Developed by the Iceman of Analytics. *Raw, real-world randomness.*")
 
-# Sidebar Controls (The "Knobs")
+# Sidebar Controls
 st.sidebar.header("Simulation Parameters")
 pop = st.sidebar.number_input("Population Size", value=10000, step=1000)
 r0_val = st.sidebar.slider("R0 (Contagiousness)", 0.5, 5.0, 2.5)
